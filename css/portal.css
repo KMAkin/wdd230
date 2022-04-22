@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: blueviolet;
+}
+
+header, main, footer {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 1rem auto;
+  border: 1px solid yellow;
+  padding: 0.5rem;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+
+main {
+    align-items: center;
+}
