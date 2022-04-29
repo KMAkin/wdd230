@@ -5,13 +5,15 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 12px;
   background-color: blueviolet;
 }
 
 header, main, footer {
   max-width: 400px;
   margin: 0 auto;
+  font-family: 'DM Serif Text', serif;  
+
 }
 
 header {
@@ -22,6 +24,11 @@ header {
   display: grid;
   grid-template-columns: 200px 1fr;
   align-items: center;
+}
+
+header img {
+  box-shadow: 0 0 30px #444;
+  border-radius: 0 10px 0 0;
 }
 
 main {
@@ -38,3 +45,10 @@ footer {
   text-align: center;
   background-color: blue;
 }
+
+a { 
+  color: red; 
+}
+
+a:hover { color: #78e335; 
+} 
