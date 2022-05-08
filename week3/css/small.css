@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+header, footer {
+    display: flex;
+    text-align: center;
+    color: #fca311;
+    padding: 1rem;
+    justify-content: center;
+    background-color: #000000;
+}
+
+main {
+    padding: 1rem;
+    justify-content: center;
+}
+
+main img {
+    width: 50%;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+nav {
+	background-color:  #C2A487;
+	max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+	overflow: hidden;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.75rem;
+}
+
+nav a:hover {
+	background-color: gold;
+    color: black;
+}
+
+nav a:visited {
+    color: red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    padding: 1rem;
+}
+
+.anonymous {
+    text-align: center;
+    padding: 1rem;
+}
+
+.colorheaders {
+    color: #fca311;
+    padding: 1rem;
+    background-color: #000000;    
+}
+
+.colornavbar {
+    color: black;
+    background-color: #C2A487;    
+    padding: 1rem;
+    text-align: center;
+}
+
+.colorhover {
+    color: black;
+    background-color: gold;    
+    padding: 1rem;
+    text-align: center;
+}
+
+.colorbody {
+    color: black;
+    background-color: white;    
+    padding: 1rem;
+    text-align: center;
+}
+
+.colorvisited {
+    color: red;
+    background-color: #C2A487;    
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-paragraph {
+    padding: 1rem;
+    text-align: center;
+}
+
+.site-url {
+    padding: 1rem;
+    text-align: center;
+}
+
+.site-logo {
+    padding: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+/* CSS styling that takes place in tablet-sized views */
+@media only screen and (min-width: 37.5em) {
+
+    header {
+        border-radius: 10px 10px 0 0;
+    }
+
+    footer {
+        border-radius: 10px;
+    }
+
+    nav {
+        border-radius: 0 0 10px 10px;
+    }
+
+    nav ul { 
+        display: flex; 
+    }
+    nav ul li { 
+        flex: 1 1 auto; 
+    }   
+}

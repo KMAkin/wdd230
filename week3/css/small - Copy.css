@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+header {
+    /* max-width: 767px; */
+    margin: auto 0;
+}
+
+header, footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    scroll-margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
