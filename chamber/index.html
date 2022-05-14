@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Queen Creek Arizona Chamber of Commerce</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&family=Merriweather&family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <picture>
+        <img src="images/logo.png" alt="Queen Creek Chamber Logo" />
+      </picture>
+      <section class="headings">
+        <h1>Queen Creek</h1>
+        <span>Chamber of Commerce</span>
+      </section>
+      <div class="social">
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook icon" width="48" height="48"/></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="linkedin icon" width="48" height="48"></a>
+      </div>
+      <nav>
+        <!-- <button id="hamburgerBtn"><span>&#9776;</span></button -->
+          <ul class="head-navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+            <li><a href="#">Discovery</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+        <h2 class="date"></h2>
+    </header>
+    <main>
+        <div class="home-grid">
+            <section id="event">Event</section>
+            <section id="weather">weather</section>
+            <section id="join">Join</section>
+            <section id="hero">Hero with site name and call to action</section>
+            <section id="news">News Release</section>
+            <section id="spotlight">
+                <div>Spotlight 1</div>
+                <div>Spotlight 2</div>
+                <div>Spotlight 3</div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <picture>
+            <img src="images/logo.png" alt="Queen Creek Chamber Logo" />
+        </picture>
+        <div class="address">
+        <h3>Queen Creek Chamber of Commerce</h3>
+        <p>12345 Main St.</p>
+        <p>Queen Creek, AZ 85143</p>
+        </div>
+        <div class="contact">
+            <a href="#">https://queencreekazchamber.com</a>
+            <p>+(480)456-7890</p>
+            <!-- <a href="https://www.googlemaps.com" target="_blank"><img src="images/pin-drop.png" alt="map pin icon" width="5" height="5">Location Map</a> -->
+        </div>
+        <div class="copyright">
+        <p>&copy <span id="year"></span> &#x2693; Kris Akin &#x2693; Arizona &#x2693; Last Updated: <span id="last-update"></span></p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
