@@ -82,11 +82,10 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1frx 1fr;
+        grid-template-rows: 1fr 15px;
     }
-    #copyright {
-        padding: 5px;
-        grid-column: 1 / span 4;
+    .copyright {
+        grid-column: 1 /4;
         grid-row: 2;
     }
 }
